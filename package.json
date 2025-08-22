@@ -2,9 +2,9 @@
   "name": "sanity-vercel-app",
   "private": true,
   "scripts": {
-    "dev": "sanity dev",
-    "build": "sanity build",
-    "deploy": "sanity deploy"
+    "dev": "cd studio && sanity dev",
+    "build": "cd studio && sanity build",
+    "deploy": "cd studio && sanity deploy"
   },
   "dependencies": {
     "sanity": "latest",
