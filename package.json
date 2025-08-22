@@ -2,19 +2,12 @@
   "name": "sanity-vercel-app",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && sanity build",
-    "start": "next start",
-    "studio": "sanity dev",
-    "deploy-studio": "sanity deploy"
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "@sanity/client": "latest",
-    "sanity": "latest",
-    "@sanity/image-url": "latest"
+    "sanity": "latest"
   },
   "engines": {
     "node": ">=18"
